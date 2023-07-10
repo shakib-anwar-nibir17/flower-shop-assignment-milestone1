@@ -9,22 +9,24 @@ body {
 }
 /* website button design */
 .btn-primary {
-  width: 197px;
+  width: 210px;
   height: 64;
   padding: 20px 43px;
   border: none;
   border-radius: 8px;
   background: #e55473;
-  color: #FFF;
+  color: #fff;
   cursor: pointer;
   font-size: 20px;
   font-weight: 700;
   transition: 0.4s;
 }
-.btn-primary:hover{
-  background-color: #FFF;
+.btn-primary:hover {
+  background-color: #fff;
   color: #e55473;
-  font-weight: 900
+  font-weight: 900;
+  border: 2px solid #e55473;
+  border-radius: 8px;
 }
 /* header styling section */
 .header-section {
@@ -58,4 +60,63 @@ body {
 .header-img {
   width: 635px;
   height: 800px;
+}
+.feature-flower {
+  padding-top: 178px;
+  width: 80%;
+  margin: auto;
+  /* margin auto helps elements to be horizontally centered */
+  text-align: center;
+}
+.feature-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 24px;
+}
+.feature-description{
+/* width: 594px;
+height: 60px;
+text-align: center; */
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 48px;
+}
+.flower-boxes-container{
+  display: flex;
+  justify-content: space-between;
+}
+.box1{
+width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+.ff1{
+  padding-top: 110px;
+  width: 310px;
+height: 428px;
+}
+.box2{
+  width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.ff2{
+  width: 370px;
+height: 370px;
+padding-top: 110px;
+}
+.box3{
+  width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+.ff3{
+  width: 314px;
+  height: 471px;
+padding-top: 67.5px;
 }
