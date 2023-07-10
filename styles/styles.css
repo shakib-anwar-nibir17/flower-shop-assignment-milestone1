@@ -9,8 +9,8 @@ body {
 }
 /* website button design */
 .btn-primary {
-  width: 210px;
-  height: 64;
+  width: 220px;
+  height: 68px;
   padding: 20px 43px;
   border: none;
   border-radius: 8px;
@@ -210,4 +210,61 @@ height: 396px;
   display: flex;
   gap: 15px;
 padding-left: 20px;
+padding-bottom: 120px;
+}
+/* pakages styling */
+.pakage-container{
+  padding-top: 120px;
+  margin: auto;
+  width: 80%;
+  height: 100vh;
+background: #F9F5F6;
+
+}
+.pakage-title{
+  font-size: 55px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.pakage-boxes{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  }
+.pakage{
+  width: 350px;
+  height: 700px;
+  border: 2px solid rgba(255, 255, 255, 0.03);
+  background-color: #F8E8EE;
+  border-radius: 8px;
+  box-shadow: 4px 8px 4px grey;
+  cursor: pointer;
+}
+.package-title{
+  font-size: 55px;
+  font-weight: 900;
+  text-align: center;
+  color: #e55473;
+  padding-bottom: 20px;
+}
+small{
+  font-size: 16px;
+  color: #272727;
+}
+.listing{
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+li{
+  padding: 10px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.list-buuton{
+  margin-top: 20px;
+  margin-left: 65px;
 }
