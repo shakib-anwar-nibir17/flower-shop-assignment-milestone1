@@ -195,3 +195,19 @@ body {
   width: 318px;
   height: 420px;
 }
+
+/* instagram section styling */
+.instagram-container{
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 128px;
+}
+.insta-box{
+  width: 342px;
+height: 396px;
+  display: flex;
+  gap: 15px;
+padding-left: 20px;
+}
