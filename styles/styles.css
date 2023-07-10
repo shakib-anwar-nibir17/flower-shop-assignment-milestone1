@@ -84,6 +84,7 @@ body {
   display: flex;
   /* justify-content: space-between; */
   gap: 25px;
+  padding-left: 20px;
 }
 .box1 {
   width: 464px;
@@ -130,4 +131,24 @@ body {
   font-size: 24px;
   font-weight: 700;
   text-decoration-line: underline;
+  cursor: pointer;
+}
+/* service related styling */
+
+.service-container{
+  margin-top: 132px;
+  background-color: red;
+color: #fff;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+}
+.all-services{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 86px 50px;
+  color: rgba(39, 39, 39, 0.80);
+  font-size: 24px;
+  font-size: 24px;
 }
