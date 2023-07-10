@@ -28,6 +28,9 @@ body {
   border: 2px solid #e55473;
   border-radius: 8px;
 }
+.primary {
+  color: #e55473;
+}
 /* header styling section */
 .header-section {
   width: 100%;
@@ -135,20 +138,60 @@ body {
 }
 /* service related styling */
 
-.service-container{
+.service-container {
   margin-top: 132px;
   background-color: red;
-color: #fff;
-border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
+  color: #fff;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
 }
-.all-services{
+.all-services {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   padding: 86px 50px;
-  color: rgba(39, 39, 39, 0.80);
+  color: rgba(39, 39, 39, 0.8);
   font-size: 24px;
   font-size: 24px;
+}
+/* offer box styling */
+
+.offer-box-container {
+  margin-top: 128px;
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding-top: 150px;
+}
+.offer-box-whole {
+  display: flex;
+  gap: 350px;
+  align-items: center;
+  margin: 0 200px;
+  text-align: center;
+}
+
+.offer-title {
+  width: 547px;
+  height: 64px;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.offer-info {
+  width: 594px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  padding-bottom: 25px;
+  font-weight: 400;
+}
+.offer-picture {
+  width: 318px;
+  height: 420px;
 }
