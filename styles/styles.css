@@ -85,7 +85,7 @@ body {
 }
 .flower-boxes-container {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-around;
   gap: 25px;
   padding-left: 20px;
 }
@@ -126,7 +126,7 @@ body {
 .ff-text-container {
   display: flex;
   text-align: center;
-  justify-content: center;
+  justify-content: space-around;
   padding-top: 32px;
   gap: 320px;
   margin-right: 30px;
@@ -165,6 +165,8 @@ body {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   padding-top: 150px;
+  display: flex;
+  justify-content: center;
 }
 .offer-box-whole {
   display: flex;
@@ -182,6 +184,7 @@ body {
   font-weight: 800;
   padding-bottom: 20px;
   padding-left: 20px;
+  text-align: left;
 }
 
 .offer-info {
@@ -203,13 +206,18 @@ body {
   background-color: #fff;
   text-align: center;
   margin-top: 128px;
+  display: flex;
+  justify-content: center;
 }
 .insta-box{
   width: 342px;
 height: 396px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   gap: 15px;
-padding-left: 20px;
+padding-left: 210px;
+padding-right: 250px; 
 padding-bottom: 120px;
 }
 /* pakages styling */
