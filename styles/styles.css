@@ -39,8 +39,9 @@ body {
 }
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  gap: 110px;
   margin: 0 200px;
 }
 .header-title {
