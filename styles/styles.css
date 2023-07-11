@@ -277,14 +277,18 @@ li {
   margin-left: 65px;
 }
 /* subscribe banner styling */
+.main-banner-box{
+  margin-top: 128px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
 
 .banner-container{
-  margin-top: 128px;
-  /* width: 80%; */
   width: 1440px;
   height: 449px;
   background-image: url("../flower-asset/subs-bg.png");
-  background-position: center;
+  
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
