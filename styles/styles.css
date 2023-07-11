@@ -292,3 +292,64 @@ li {
   align-items: center;
   margin: 0px 220px;
 }
+.banner-title{
+  color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+padding-bottom: 12px;
+}
+.banner-description{
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 48px;
+
+}
+.email-subscribe{
+  display: flex;
+  gap: 16px;
+}
+.email-text{
+  padding-left: 21px ;
+  width: 700px;
+height: 64px;
+border-radius: 8px;
+border: 1px solid #FFF;
+background-color: #FFF;
+color: #e55473;
+font-size: 16px;
+font-weight: 400;
+}
+/* footer styling */
+.footer-container{
+  width:100%;
+  height: 449px;
+  margin-top: 128px;
+  background-color: #111010;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title{
+  color: #FFFFFF;
+font-size: 48px;
+font-weight: 800;
+padding-bottom: 24px;
+}
+.footer-description{
+  width: 625px;
+  color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 32px;
+}
+.footer-end{
+  color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+
+}
