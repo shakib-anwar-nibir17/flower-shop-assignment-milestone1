@@ -238,7 +238,7 @@ background: #F9F5F6;
 }
 .pakage-boxes{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 150px;
   }
 .pakage{
