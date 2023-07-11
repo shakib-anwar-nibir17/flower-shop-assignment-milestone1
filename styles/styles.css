@@ -133,7 +133,7 @@ body {
   justify-content: space-around;
   align-items: center;
   padding-top: 32px;
-  gap: 210px;
+  gap: 290px;
   color: #272727;
   font-size: 24px;
   font-weight: 700;
@@ -246,6 +246,7 @@ body {
   justify-content: space-around;
   gap: 90px;
 }
+
 .pakage {
   width: 350px;
   height: 700px;
@@ -255,6 +256,7 @@ body {
   box-shadow: 4px 8px 4px grey;
   cursor: pointer;
 }
+
 .package-title {
   font-size: 55px;
   font-weight: 900;
