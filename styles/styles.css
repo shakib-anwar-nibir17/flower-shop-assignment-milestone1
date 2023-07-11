@@ -228,6 +228,7 @@ body {
   width: 80%;
   height: 100vh;
   background: #f9f5f6;
+  margin-bottom: 128px;
 }
 .pakage-title {
   font-size: 55px;
@@ -286,6 +287,7 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0px 220px;
