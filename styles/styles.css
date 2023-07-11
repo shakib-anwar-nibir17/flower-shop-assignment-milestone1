@@ -253,7 +253,7 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.03);
   background-color: #f8e8ee;
   border-radius: 8px;
-  box-shadow: 4px 8px 4px grey;
+  box-shadow: 4px 8px 4px  grey;
   cursor: pointer;
 }
 
