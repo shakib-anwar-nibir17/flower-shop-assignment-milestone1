@@ -279,5 +279,14 @@ li {
 
 .banner-container{
   margin-top: 128px;
-  background-image: url();
+  /* width: 80%; */
+  width: 1440px;
+  height: 449px;
+  background-image: url("../flower-asset/subs-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 220px;
 }
