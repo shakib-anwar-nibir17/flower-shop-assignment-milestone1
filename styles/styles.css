@@ -198,6 +198,7 @@ body {
 .offer-picture {
   width: 318px;
   height: 420px;
+  padding-bottom: 50px;
 }
 
 /* instagram section styling */
