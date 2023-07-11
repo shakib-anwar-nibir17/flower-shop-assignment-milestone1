@@ -239,8 +239,8 @@ body {
 }
 .pakage-boxes {
   display: flex;
-  justify-content: space-evenly;
-  gap: 150px;
+  justify-content: space-around;
+  gap: 90px;
 }
 .pakage {
   width: 350px;
